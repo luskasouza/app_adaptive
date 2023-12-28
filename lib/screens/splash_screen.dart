@@ -2,6 +2,8 @@ import 'dart:async';
 import 'package:app_adaptive/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
+import 'login_screen.dart';
+
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
@@ -19,9 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
       () => Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => const HomeScreen(
-            title: 'Flutter Demo Página Inicia',
-          ),
+          builder: (context) => const LoginScreen(),
         ),
       ),
     );
