@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:app_adaptive/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
+import '../utils/constants.dart';
 import 'login_screen.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -38,8 +39,8 @@ class _SplashScreenState extends State<SplashScreen> {
               begin: Alignment.topRight,
               end: Alignment.bottomLeft,
               colors: [
-                Color(0xFFFF800B),
-                Color(0xFFFF800B),
+                primaryColor,
+                secondaryColor,
               ]),
         ),
         child: Column(

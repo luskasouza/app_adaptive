@@ -8,12 +8,18 @@
         "Incrementar",
         "Inglês",
         "Inicia",
+        "insira",
+        "inválido",
+        "obrigatório",
         "Página",
         "Pedido",
         "Português",
         "primeira",
         "segunda",
+        "Senha",
         "tela",
-        "Unidos"
-    ]
+        "Unidos",
+        "Validatorless"
+    ],
+    "DockerRun.DisableDockerrc": true
 }
